@@ -6,6 +6,21 @@
    #131f26;
    #d9d1ba;
 */
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+  }
+
 *{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0px;
@@ -42,4 +57,11 @@ div#image{
 div#form{
     display: block;
     padding: 20px;
+}
+#form > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#form > p{
+    font-size: 0.8em;
 }
