@@ -40,7 +40,7 @@ section#login{
     transform: translate(-50%,-50%);
     overflow: hidden;
     width: 300px;
-    height: 610px;
+    height: 95%;
     background-color: #45788c; 
     border-radius: 30px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
@@ -52,7 +52,7 @@ div#image{
     display: block;
     background: #45788c url(../imagens/pexels-guillaume-meurice-2529184.jpg) no-repeat ;
     background-size: cover;
-    height: 300px;
+    height: 250px;
 }
 div#form{
     display: block;
@@ -62,44 +62,46 @@ div#form{
     color: #fff;
     text-align: center;
     margin-bottom: 8px;
-    text-shadow: 0px 0px 10px black;
+    text-shadow: 0px 0px 2px black;
 }
 #form > p{
-    color:#fff;
-    font-size: 0.8em;
+    color:#ffffff;
+    font-size:0.9em;
 }
 form > div.campo{
-   background-color: #45788c;
-   border: 2px solid #45788c;
+   background-color: #131f26;
+   border: 2px solid #131f26;
    display: block;
    width: 100%;
    height: 35px;
    margin: 5px 0px;
-   border-radius: 8px;
+   border-radius: 5px;
+   cursor: pointer;
 }
 .campo label{
     display: none;
 }
 .campo span{
-    background-color: #f26938;
-    border-radius: 9px 0px 0px 9px;
+    background-color: #131f26;
     color: #fff;
-    width: 40px;
-    padding: 6px;
+    width: 35px;
+    padding: 6.2px;
     font-size: 1.2em;
    
 }
 .campo > input{
-    background-color:#d9d1ba;
-    font-size: 1em;
-    width: 200px;
-    height: 100%;
+    width: 212px;
+    padding: 11px 0px 2px 0px;
+    background-color:#131f26;
+    font-size: 0.9em;
     border: 0px;
-    border-radius: 8px;
+    border-radius: 5px;
    
 }
 .campo > input:focus-within{
-    background-color: #fff;
+    border: none;
+    background-color: #131f26;
+    color: #fff;
 }
 
 form > input[type=submit] {
@@ -107,7 +109,7 @@ form > input[type=submit] {
     font-size: 1em;
     width: 100%;
     height: 40px;
-    background-color:#f26938;
+    background-color:#45788c;
     border: none;
     color: #fff;
     border-radius: 5px;
@@ -115,27 +117,27 @@ form > input[type=submit] {
    
 }
 form > input[type=submit]:hover{
-    background-color: #d9d1ba;
-    color: #000;
+    background-color: #f26938;
+    color: #fff;
 }
 form > a.botao{
     display: block;
     width: 100%;
     margin-top: 5px;
-    height: 50px;
+    height: 42px;
     padding-top: 5px;
     text-align: center;
     text-decoration: none;
     font-size: 0.9em;
     color: #ffffff;
-    border: 1px solid #f26938;
-    background-color:#f26938;
-    border-radius: 6px;
+    border: 1px solid #131f26;
+    background-color:#131f26;
+    border-radius: 5px;
 }
 form > a.botao > span{
     font-size: 0.9em;
 }
 form > a.botao:hover{
-    background-color: #d9d1ba;
-    color: #000;
+    background-color: #f26938;
+    color: #fff;
 }
